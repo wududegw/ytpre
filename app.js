@@ -227,6 +227,9 @@ revenuecat-response = type=http-response, pattern=^https:\/\/api\.revenuecat\.co
 # Note: The original input configuration was truncated by the system.
 # Nicegram script rules have been added for visual completion.
 nicegram-response = type=http-response, pattern=^https?:\/\/api\.nicegram\.app\/api\/v\d\/user\/info, script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, requires-body=1, max-size=0, timeout=10
+
+[MITM]
+hostname = *youtube.com, *googlevideo.com, api.revenuecat.com, api.rc-backup.com, spclient.wg.spotify.com, i.instagram.com, api.twitter.com, api.x.com, api.picsart.com, photos.adobe.io, lcs-mobile-cops.adobe.io, mb3admin.com, api-account.kinemasters.com, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium-*.truecaller.com, api*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, vsco.co, api.funimate.com, buy.itunes.apple.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, *.xiuxiu.meitu.com, *account.wps.com, *account.wps.cn, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app
 `;
 
 // App State Management
